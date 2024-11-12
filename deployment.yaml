@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: devops-003-pipeline-cd-deployment
+  name: devops-03-pipeline-cd-deployment
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: devops-003-pipeline-cd
+      app: devops-03-pipeline-cd
   template:
     metadata:
       labels:
-        app: devops-003-pipeline-cd
+        app: devops-03-pipeline-cd
     spec:
       containers:
-      - name: devops-003-pipeline-cd
+      - name: devops-03-pipeline-cd
         image: asoner01/devops-03-pipeline-aws:1.0.8
         resources:
           limits:

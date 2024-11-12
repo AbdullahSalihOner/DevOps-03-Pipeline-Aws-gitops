@@ -2,12 +2,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: devops-003-pipeline-aws-service
+  name: devops-03-pipeline-aws-service
   labels: 
-    app: devops-003-pipeline-aws
+    app: devops-03-pipeline-aws
 spec:
   selector:
-    app: devops-003-pipeline-aws
+    app: devops-03-pipeline-aws
     
   ports:
   - port: 8083
