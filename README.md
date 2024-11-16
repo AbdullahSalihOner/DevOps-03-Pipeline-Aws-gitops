@@ -126,6 +126,7 @@ The pipeline is defined in a `Jenkinsfile` with stages such as:
 
 ## Troubleshooting
 
+
 ### Common Issues
 
 - **SSH Authentication**: Ensure the SSH keys are correctly set up between Jenkins Master and Agent.
@@ -133,6 +134,7 @@ The pipeline is defined in a `Jenkinsfile` with stages such as:
 - **Docker Image Push Failures**: Ensure DockerHub credentials are correctly configured in Jenkins.
 
 ---
+
 
 ## References
 
